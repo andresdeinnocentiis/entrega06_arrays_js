@@ -676,7 +676,7 @@ function main() {
     //console.log("USUARIO 2:\n")
     //console.log(usuario2.verUsuario())
 
-    cliente1 = setClienteFromUsuario(usuario1)
+    const cliente1 = setClienteFromUsuario(usuario1)
     console.log("USUARIO 1 AHORA CLIENTE:\n")
     console.log(cliente1.verCliente())
 
